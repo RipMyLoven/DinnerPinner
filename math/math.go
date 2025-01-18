@@ -1,12 +1,7 @@
 package math
 
 func MathBool(num1, num2 int) bool {
-
-	if num1 == num2 {
-		return true
-	}
-	return false
-
+	return num1 == num2
 }
 func MathMult(num1, num2 int) int {
 	return num1 * num2
