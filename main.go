@@ -1,5 +1,7 @@
 package main
 
-func main() {
+import "DinnerPinner/file"
 
+func main() {
+	file.Run()
 }
